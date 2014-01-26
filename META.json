@@ -48,6 +48,7 @@
       },
       "test" : {
          "requires" : {
+            "Plack::Session::Store" : "0.20",
             "Test::More" : "0.98"
          }
       }
@@ -55,7 +56,7 @@
    "provides" : {
       "Plack::Session::Store::Transparent" : {
          "file" : "lib/Plack/Session/Store/Transparent.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -69,5 +70,5 @@
          "web" : "https://github.com/i110/p5-Plack-Session-Store-Transparent"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

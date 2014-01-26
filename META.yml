@@ -3,6 +3,7 @@ abstract: 'Session store container which provides transparent access'
 author:
   - 'Ichito Nagata <i.nagata110@gmail.com>'
 build_requires:
+  Plack::Session::Store: 0.20
   Test::More: 0.98
 configure_requires:
   CPAN::Meta: 0
@@ -28,11 +29,11 @@ no_index:
 provides:
   Plack::Session::Store::Transparent:
     file: lib/Plack/Session/Store/Transparent.pm
-    version: 0.01
+    version: 0.02
 requires:
   perl: 5.008005
 resources:
   bugtracker: https://github.com/i110/p5-Plack-Session-Store-Transparent/issues
   homepage: https://github.com/i110/p5-Plack-Session-Store-Transparent
   repository: git://github.com/i110/p5-Plack-Session-Store-Transparent.git
-version: 0.01
+version: 0.02
